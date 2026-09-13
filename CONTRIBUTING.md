@@ -31,6 +31,7 @@ Usually a better fit for [awesome-fruit-fly-connectome](https://github.com/watth
 - Say what is engineered (readouts, reward pulses, teacher forcing) versus what comes from the published wiring.
 - Note dataset license when it matters: **MaleCNS is CC BY 4.0**; **FlyWire / FAFB is CC BY-NC 4.0**.
 - Quality over volume. A clear live demo beats a same-day stub with no README.
+- Uncurated search notes live in [`discoveries/`](discoveries/). Fold only the strongest verified items into `README.md`; do not dump a shard wholesale.
 
 ## Pull requests
 
