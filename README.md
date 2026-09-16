@@ -58,6 +58,8 @@ Connectome activity mapped onto game controls or a playable / inspectable agent.
 - [fly_chess](https://github.com/martialsystems/fly_chess) - Chess via a connectome LIF ply plus search. The README reports that one LIF ply on the real graph is silent and `wiring_helped` is false — an honest negative result.
 - [fly-chess (WASM)](https://github.com/tolatolatop/fly-chess) - Separate FlyWire LIF chess experiment in the browser (Rust / WASM) with spike traces and causal controls. [ [demo](https://tolatolatop.github.io/fly-chess/) ]
 - [Fly Dino](https://github.com/cobanov/flyjump) - **RL readout.** Chromium Dino jumped by an 80-cell MaleCNS circuit plus a CEM-trained 243-parameter readout (99/100 held-out courses in the published checkpoint). Wiring is frozen. [ [play](https://flydino.cobanov.dev/) ]
+- [FlyDrones](https://github.com/SpikeCalls/FlyDrones) - Webcam / keyboard optic-flow illusions (open palm climb, fist hold, rush-the-camera giant-fiber escape) steer a 3D drone via DNg02 / DNp01. Browser demo is MiniFly (~850 cells) plus a safety governor, not the full 166k graph. [ [play](https://spikecalls.github.io/FlyDrones/) ]
+- [Fly Marksman](https://github.com/webergithub/fruitfly-lab) - 3,963-neuron FlyWire LC10a→AOTU→DNa02 pursuit circuit aims in the browser with no training. Same circuit on ViZDoom *defend_the_center*: real wiring 10.2 kills/episode vs a degree-preserving scramble 0.7. Bearing→LC10a drive is engineered. [ [play](https://opcstudio.cc/fly-aim/) ]
 - [Fly Tic-Tac-Toe](https://github.com/pikabell/fly-tictactoe) - **RL readout.** 98-cell MaleCNS circuit + a 425-parameter readout in the browser, with silence / rewire controls. Imitation of minimax uses the circuit; a degree-preserving rewired graph scores about the same — topology is not the skill. [ [play](https://pikabell.github.io/fly-tictactoe/) ]
 - [fly-escape](https://github.com/dzhng/fly-escape) - 3D browser house-escape: place furniture, release flies whose MaleCNS LIF circuits drive movement. [ [play](https://fly-escape.vercel.app/) ]
 - [fly-explorer](https://github.com/brandoncho369/fly-explorer) - FlyWire (~139k neurons) as a live browser spiking network. Press sugar, watch a proboscis motor neuron fire. [ [demo](https://www.fly-bench.com) ]
@@ -84,9 +86,11 @@ Connectome activity mapped onto game controls or a playable / inspectable agent.
 ### X-only or thinly documented game clips
 
 - [Bad Apple!!](https://github.com/kevinlinxc/badapple-fly) - Kevin Lin ([@linguinelabs](https://x.com/linguinelabs) in news write-ups) pipes Bad Apple!! through MaleCNS v1.0 and shows a NeuroMechFly body. Open-source; LIF parameters and movement programs are illustrative. Coverage also used the X handle; the repo is the verified source.
+- [Deadlock](https://knowyourmeme.com/videos/440448-fruit-fly-brain-simulations) - **X-only.** [@jetsetworm](https://x.com/jetsetworm) (11 Sep 2026): “the fly can play deadlock” with YOLOv5 + video pretraining, “most success on Graves.” No numeric status ID archived here; no public repo. YOLO is a vision front-end, not a fly retina.
 - [Fly social network](https://x.com/nftechie_/status/2098371978612924425) - [@nftechie_](https://x.com/nftechie_) (13 Sep 2026): three male and three female connectomes with separate states; presenting flies stimulates sensory neurons and activity decides whether another fly responds (“TheFlybook”). No public repo was found at write-up.
 - [Mario 64 follow-ups](https://x.com/barrelshifter) - After the [7 Sep 2026 clip](https://x.com/barrelshifter/status/2097004115826200898), [@barrelshifter](https://x.com/barrelshifter) posted further SM64 training experiments (including a “teaching to Kill” follow-up circulated in community notes). Those later clips were not independently archived with a verified status ID here.
 - [Parallel parking](https://x.com/alright_mark/status/2098085928489177142) - **X-only.** [@alright_mark](https://x.com/alright_mark) (10 Sep 2026): “the fly has completed* the ultimate test: parallel parking.” Status ID from public unroll/news embeds. No first-party repo tied to this handle; not the same as [Flyhard](https://github.com/MarkUnthank/flyhard).
+- [Super Smash Bros / Rubik’s cube](https://x.com/nickwalton00/status/2098537903110652087) - **X-only.** [@nickwalton00](https://x.com/nickwalton00) (13 Sep 2026): Smash “wins against the bots 2/3 matches” and a [Rubik’s](https://x.com/nickwalton00/status/2098301053372621070) follow-up. Status IDs from unrollnow. No public repo; not the same as [lntegrals/flycube-public](https://github.com/lntegrals/flycube-public). Methods not inspectable.
 
 ## Trading & markets
 
@@ -114,6 +118,7 @@ Same caveat as the dopamine section: a chart-in / trade-out loop is an interface
 - [Faiku](https://github.com/xyzzyapps/faiku) - See [Reinforcement & dopamine](#reinforcement--dopamine). Haiku as a dopamine-gated ink trail.
 - [FLM](https://github.com/nftechie/flm) - **Trained readout, not dopamine.** Frozen Liquid AI 1.2B LM whose logits are nudged by a 278k-parameter adapter on the full retained MaleCNS graph. Language comes from the backbone; a no-graph control does slightly better. [ [chat](https://fly-language-model.vercel.app/) · [paper](https://artificialscientific.com/papers/flies-are-all-you-need) ]
 - [Fly Lab](https://github.com/Apolotary/fly-lab) - **RL readout.** Ableton Live: fly motor-circuit activity → a small trainable musical “More / Less like this” readout. Wiring frozen.
+- [Fly OCR](https://github.com/jerryjliu/fly_ocr) - Frozen MaleCNS as a printed-character reservoir; a 266k-parameter decoder scores 87.6% on a 1,632-glyph benchmark and 5.7% CER on selected PDF lines. A 3° tilt breaks it. Local replay viewer; not a claim that flies read.
 - [FLYcasso](https://github.com/gustavz/FLYcasso) - Connectome-conditioned image diffusion and simulated fly painting on MaleCNS wiring.
 - [flyboard](https://github.com/sukoji/flyboard) - Music chart voted by a GPU simulation of MaleCNS v1.0 (~165k neurons) after 84 songs. [ [viewer](https://sukoji.github.io/flyboard/) ]
 - [Fruit fly utopia](https://github.com/ML-Chen/fruit-fly-utopia) - See [Reinforcement & dopamine](#reinforcement--dopamine). Sugar / cocaine / doomscroll / utopia as motor programs on a PAM–PPL1 cartoon.
@@ -140,6 +145,8 @@ Closed-loop bodies, locomotion policies, and research-grade simulators. Several 
 - [fly-self-driving](https://github.com/suanmiao/fly-self-driving) - MaleCNS-scale connectome (165k neurons, 25.6M synapses) trained to drive a simulated street from pixels. [ [demo](https://fly-self-driving.kylon.app) ]
 - [flyverse](https://github.com/djmango/flyverse) - Native Rust MaleCNS v1.0 sim embodied in a virtual room, with a browser visualizer. See also [flyverse-core](https://github.com/tel-0s/flyverse-core) (transmitter-aware core).
 - [FLYNN](https://github.com/ben-gitdev/fly-gym) - **RL / imitation.** FlyWire FAFB v783 as a ~139k-unit sparse RNN trained with DAgger to drive a wheeled MuJoCo robot, vs small-world and CNN baselines. Wang & Chen, arXiv:2607.00025.
+- [Fly Space Program](https://github.com/steph4n-gh/fly-space-program) - **RL readout.** Full retained MaleCNS plus a learned ten-command readout flies a simulated booster (60/80 unseen landings in the published release; covering the eyes → 0/80). Orbital missions and the physical “Fly Cube” are not demonstrated. [ [sim](https://fly.steph4n.dev/) ]
+- [Fruitless](https://github.com/nicodunks/fruitless) - MaleCNS mAL-block courtship assay with a recorded-activity Three.js fly. Male-cue responses rise after the block; female cues still win — increased responsiveness, not male preference.
 - [FlyGM](https://arxiv.org/abs/2602.17997) - Jin, Zhu, Zhang, Sui. *Whole-Brain Connectomic Graph Model Enables Whole-Body Locomotion Control in Fruit Fly*. Instantiates the adult whole-brain connectome as a directed message-passing graph and trains it with RL (imitation + PPO) on flybody for walking, turning, and flight. [ [project](https://lnsgroup.cc/research/FlyGM) · [site](https://sites.google.com/view/flygm) ]
 - [FlyGym / NeuroMechFly v2](https://github.com/NeLy-EPFL/flygym) - Physics digital twin of adult *Drosophila* (vision, olfaction, terrain, SAC obstacle-avoid). The body most embodied demos attach a connectome to. Wang-Chen et al., *Nature Methods* 2024. [ [DOI](https://doi.org/10.1038/s41592-024-02497-y) · [NeuroMechFly v1](https://github.com/NeLy-EPFL/NeuroMechFly) · [docs](https://neuromechfly.org/) ]
 - [flyvis](https://github.com/TuragaLab/flyvis) - Connectome-constrained deep mechanistic model of the fly visual system in PyTorch (Lappalainen et al., *Nature* 2024). The visual prior reused by NeuroMechFly v2 fly-following. [ [DOI](https://doi.org/10.1038/s41586-024-07939-3) · [docs](https://turagalab.github.io/flyvis/) ]
@@ -163,7 +170,7 @@ Short orientation only. Deeper coverage lives on [watthem/awesome-fruit-fly-conn
 
 - [awesome-fruit-fly-connectome](https://github.com/watthem/awesome-fruit-fly-connectome) - Datasets, papers, viewers, analysis libraries, and a shorter viral-experiments section. Complementary: they curate the science stack; this list curates demos and dopamine / RL use cases.
 - [awesome-fly](https://github.com/cobanov/awesome-fly) - Parallel community index (games, desktop flies, language/art, research tools) by the Fly Dino author, with a [fly-connectome-template](https://github.com/cobanov/fly-connectome-template) starter. Overlaps this list; useful as a second pass.
-- [`discoveries/`](discoveries/) - Uncurated search shards (games / media / art, science / embodied RL, trading / dopamine / wirehead, and the 14 Sep 2026 X/web cool-hunt). Stronger items are folded into the sections above; the shards keep rejected and “mentioned, not verified” notes.
+- [`discoveries/`](discoveries/) - Uncurated search shards (games / media / art, science / embodied RL, trading / dopamine / wirehead, and the 14–15 Sep 2026 X/web cool-hunts). Stronger items are folded into the sections above; the shards keep rejected and “mentioned, not verified” notes.
 
 ## Articles & threads
 
@@ -177,13 +184,16 @@ Verified reporting and primary posts. Tweet IDs appear only when an archive or n
 - [Connectome-constrained networks predict neural activity across the fly visual system](https://doi.org/10.1038/s41586-024-07939-3) - Lappalainen et al., *Nature* 2024 (flyvis).
 - [Whole-Brain Connectomic Graph Model Enables Whole-Body Locomotion Control in Fruit Fly](https://arxiv.org/abs/2602.17997) - FlyGM, arXiv:2602.17997.
 - [FLYNN: Robust Neural Network for Robot Navigation using Fly Brain Topology](https://arxiv.org/abs/2607.00025) - Wang & Chen, arXiv:2607.00025.
-- [@nftechie_ — Doom training](https://x.com/nftechie_) - 6 Sep 2026 announcement (quoted across TechSpot, Gizmodo, Tom’s Hardware): frames → sensory neurons; damage → two PPL101 cells. Status ID not independently archived here.
+- [@nftechie_ — Doom training](https://x.com/nftechie_/status/2097711063135383642) - “the fly brain can play doom” (6 Sep 2026). Frames → sensory neurons; damage → two PPL101 cells. Status ID from unrollnow.
 - [@nftechie_ — Stonkfly](https://x.com/nftechie_/status/2098012107652391357) - “I gave the fly brain $100 to trade bitcoin.”
 - [@nftechie_ — fly social network](https://x.com/nftechie_/status/2098371978612924425) - Three male + three female connectomes.
 - [Flies Are All You Need](https://artificialscientific.com/papers/flies-are-all-you-need) - FLM methods note: full retained MaleCNS reservoir on a frozen 1.2B LM. Direct-input control slightly beats the fly graph. Conversational recipe is [nftechie/flm](https://github.com/nftechie/flm); study artifacts stay private.
 - [@barrelshifter — Mario 64](https://x.com/barrelshifter/status/2097004115826200898) - “playing mario 64 using a fly's brain.”
 - [@_lyraaaa_ — Beat Saber](https://x.com/_lyraaaa_/status/2097527368919470162) - “the fly brain can play beat saber.”
 - [@alright_mark — parallel parking](https://x.com/alright_mark/status/2098085928489177142) - “the fly has completed* the ultimate test: parallel parking.”
+- [@nickwalton00 — Smash / Rubik’s](https://x.com/nickwalton00/status/2098537903110652087) - Super Smash Bros clip; [Rubik’s](https://x.com/nickwalton00/status/2098301053372621070). X-only; no public repo found.
+- [404 Media](https://www.404media.co/a-digital-fly-brain-has-taken-over-the-internet/) - 15 Sep 2026 recap (Minecraft, Doom, Beat Saber, Stonkfly, parking). Names kebab / LinkedIn / “bi fly” without first-party URLs for those.
+- [Quantum Zeitgeist — Fly OCR](https://quantumzeitgeist.com/fruit-fly-ocr/) - 14 Sep 2026 write-up of jerryjliu/fly_ocr.
 - [Gizmodo](https://gizmodo.com/google-mapped-a-fruit-flys-brain-now-its-playing-doom-and-super-mario-64-2000808616) - Doom + Mario 64 recap with embedded posts.
 - [TechSpot](https://www.techspot.com/news/113780-google-mapped-fly-nervous-system-developers-using-play.html) - Confirms the barrelshifter status URL and the PPL101 Doom loop.
 - [PC Gamer](https://www.pcgamer.com/hardware/after-google-mapped-an-adult-male-fruit-flys-brain-software-engineers-made-it-play-doom-mario64-and-beat-saber/) - Doom, Mario 64, and Beat Saber wave.
@@ -199,4 +209,4 @@ List text is [CC0 1.0](LICENSE) (public domain dedication), the usual license fo
 
 Linked projects and datasets keep their own terms. **MaleCNS data is CC BY 4.0** (attribution required; commercial use allowed). **FlyWire / FAFB data is CC BY-NC 4.0** (non-commercial). Check each source before you ship a fork.
 
-*Last updated 14 September 2026, during the MaleCNS demo wave. Fly on. 🪰*
+*Last updated 15 September 2026, during the MaleCNS demo wave. Fly on. 🪰*
