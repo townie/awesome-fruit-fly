@@ -30,6 +30,27 @@ Genuine misses that are cooler or a different loop than what the README / 17 Sep
 | 14 | [hama-jp/fly-garden](https://github.com/hama-jp/fly-garden) | 0 | **yes** — Double DQN *controller*; connectome weights frozen | local `127.0.0.1:18741`; [YouTube](https://www.youtube.com/watch?v=3BSv3TqA-yY) | 166,700 / 25.6M LIF sees a Three.js garden (192×96); learned layer picks 7 locomotor actions. Created 16 Sep; 17 Sep shards missed it. |
 | 15 | [Teafox113/FlyCNS-Desktop-Pet](https://github.com/Teafox113/FlyCNS-Desktop-Pet) | 0 | optional neuromod / sugar reward telemetry | Windows local | 2D always-on-top pet; 3,335 R1–R6 plus a “pure BCI” control. Engineering cruise vs neural readout is documented. Created 18 Sep. |
 
+## Box X follow-up (same day, later)
+
+Verified 22 Sep 2026 after a login-walled X scan named six GitHub URLs plus three `@fruitflydev` status IDs. Stars from GitHub API this pass. Live hosts HTTP **200**. Tweet IDs confirmed via unrollnow (200); first-party `x.com` still 404 here.
+
+| Project | Stars | Fold? | One-liner |
+|---|---:|---|---|
+| [Eli-HarShefer/fly-brain-falafel](https://github.com/Eli-HarShefer/fly-brain-falafel) | 0 | **README** (games) | FlyWire subgraph **4,798 / 116,960** LIF in-browser Falafel King. LC10a→AOTU→DNa02 trays; LPLC2→DNp01 slaps. Order-reading is authored. Created 21 Sep; still pushing 22 Sep. [Pages](https://eli-harshefer.github.io/fly-brain-falafel/) (200). |
+| [fruitflydev/therealfly](https://github.com/fruitflydev/therealfly) | 6 | **README** (embodied) | Full MaleCNS LIF (165,122 / 10.2M) → flybody with **no written controller**. Preregistered DNa01+DNa02 cord rhythm **FAIL** (anti-phase 0/3; scramble makes the same 11 Hz peak). Created 12 Sep / last push 13 Sep; 6★ by 18 Sep. Offline; no wallet. |
+| [gyujeongion/flyconnectome-nulls](https://github.com/gyujeongion/flyconnectome-nulls) | 0 | **README** (embodied) | Compressed FlyWire v783 evolution vs nulls. Standard shuffles invent olfactory→motor shortcuts; boundary-preserving nulls wipe the gap. Pre-registered; one registered prediction **failed** and is reported. Created 21 Sep. [Zenodo](https://doi.org/10.5281/zenodo.22871090) (200). |
+| [brandoncho369/flybench](https://github.com/brandoncho369/flybench) | 2 | **README** (tools) | 36 pre-registered reflex tasks, FlyWire + MaleCNS, shuffled controls. Was in `github-latest-cool.md` (1★) as a fly-explorer companion; never on README. Heavily updated 22 Sep. [fly-bench.com/bench](https://www.fly-bench.com/bench) (200). |
+| [flybrain.online/dartboard](https://flybrain.online/dartboard) | — | **README** (trading) | Paper stock room on the same 165,122 MaleCNS. **No GitHub repo** (clip-only tweet). Live page: no edge vs Random; sugar/shock MB lessons. HTTP 200. |
+| [fruitflydev/flycoinrh](https://github.com/fruitflydev/flycoinrh) | 190 | already README | Confirmed still listed. Tweets folded into the existing row + Articles. |
+| [HaroldHormaechea/drone-fly](https://github.com/HaroldHormaechea/drone-fly) | 0 | **shard only** | Real MaleCNS **slice** + PPO racing drone. README: **not** a biophysical LIF — weights are learned. Overlaps already-listed [fly-fpv](https://github.com/joey-david/fly-fpv). Created 16 Sep; still pushing 22 Sep. Already nearby in the 17 Sep GitHub shard. |
+| [seeton/fly](https://github.com/seeton/fly) | 0 | **shard only** | MaleCNS / hemibrain / FlyWire desktop lab (navis + flygym). Escape takeoff is **hand-translated** DNp01→TTMn; flight is a CMA-ES `flight_policy.json`, not a LIF graph. Brain lighting is sensory-input mapping. Created 19 Sep. Tooling/viewer, not a wiring-diagram sim. |
+
+**fruitflydev tweets (unrollnow 200; do not invent others):**
+
+- https://x.com/fruitflydev/status/2100964182028099993 (18 Sep) — Flyonardo NFT airdrop / $FLYBRAIN burn. Repo already in 17 Sep shard: `fruitflydev/flyonardo-da-vinci`.
+- https://x.com/fruitflydev/status/2101298482002927874 (19 Sep) — “gave the fly $10,000 to trade stocks” (five-card room). Tweet claims outperform random/hold; the live Dartboard page is more conservative.
+- https://x.com/fruitflydev/status/2102092842537734496 — clip-only; no GitHub in the post. Points at `flybrain.online/dartboard`.
+
 **Nearby, same coolness band (not ranked separately):**
 
 - [jonathancomergit-ai/fly-terrarium](https://github.com/jonathancomergit-ai/fly-terrarium) (0★, 16 Sep) — 165,122 GPU LIF in a tank (sugar/bitter/fan/song/swat) plus a flyvis webcam optic-lobe page. Local `8793`. Folded this pass (must-include). Overlaps Infinite Sugar / flyverse energy.
@@ -70,6 +91,8 @@ Genuine misses that are cooler or a different loop than what the README / 17 Sep
 - [Vaseto108/fly_rotten](https://github.com/Vaseto108/fly_rotten) (0★, 18 Sep) — notebook: frozen MaleCNS features vs ResNet-18 on fresh/rotten fruit.
 - [AdilSiddiquiHQ/fly-connectome-chess](https://github.com/AdilSiddiquiHQ/fly-connectome-chess) (3★, 18 Sep) — “164k” + dopamine RL chess. Marketing-heavy; inspect before promoting over already-listed honest-negative chess labs.
 - [Umair-JM/fly-eeg](https://github.com/Umair-JM/fly-eeg) (0★, 22 Sep) — MaleCNS as EEG-denoise reservoir. **No README** this pass.
+- [HaroldHormaechea/drone-fly](https://github.com/HaroldHormaechea/drone-fly) (0★, 16 Sep / push 22 Sep) — see Box X follow-up. Not biophysical LIF; overlaps fly-fpv.
+- [seeton/fly](https://github.com/seeton/fly) (0★, 19 Sep) — see Box X follow-up. Viewer + flygym; takeoff is hand-mapped.
 
 ## New: dopamine / trading / wirehead
 
@@ -83,6 +106,7 @@ Not already in `trading-dopamine-wirehead.md` or the README dopamine/trading sec
 - [karacurt/polyfly-ui](https://github.com/karacurt/polyfly-ui) — UI only for already-listed Polyfly.
 - [PestvsPest/PestvsPest](https://github.com/PestvsPest/PestvsPest) — fly vs worm paper book.
 - [Jammore1203/flybrain-trader](https://github.com/Jammore1203/flybrain-trader) (0★, **22 Sep**, 190 kb) — FlyWire GPU + “evolved and taught to trade BTC with dopamine.” Too fresh/thin to promote.
+- [flybrain.online/dartboard](https://flybrain.online/dartboard) — paper stock room (Box X follow-up). No GitHub. Live 200.
 
 `PAM11 created:>=2026-09-17` is still polluted; named PAM/PPL loops this window came from README text, not the qualifier search.
 
@@ -128,8 +152,8 @@ DOOMFLY, Stonkfly, StonkFlyRH, stonkfly-lab, FLM (`nftechie/flm`), Fly/Wirehead,
 - GitHub Search API (22 Sep 2026 UTC): `MaleCNS created:>=2026-09-17` **80**; `MaleCNS created:>=2026-09-18` **55**; `FlyWire created:>=2026-09-17` **52**; `FlyWire created:>=2026-09-18` **37**; `"166,700" created:>=2026-09-17` **11**; `flybrain created:>=2026-09-17` **53**; `fruit fly connectome created:>=2026-09-17` **74**; `MaleCNS created:>=2026-09-01` **270** (was 212 on 18 Sep). `stonkfly created:>=2026-09-17` **2** without forks / **23** with `--include-forks true`. `doomfly` same window **4** / **15** with forks.
 - Also ingested FlyWire / flybrain / fruit-fly dumps (262 unique records across queries before the relevance filter). Ranked / New above are fetched-README items, not the raw dump.
 - Forks API this pass: `nftechie/stonkfly` stars **802**, `doomfly` **385**, `flm` **90**. FlyDrones **216★** / 51 forks.
-- Live HTTP GET on 22 Sep 2026: mk-jev Pages, FlyDrones Pages, fruitflysynth Pages, fly-chan Pages, brainrotposts.com, flywire-fly-lab game.html, nandfly, beat-the-fly, 9tofly, Fly School, Euraxluo, music-in-the-body, polyfly-ui, flyscope, malecns-pong-lab Pages, fly-blackjack, FlyBreak chatgpt.site, flysoul Pages, drosophila-critic Pages, flyrun.runningdog.org, dotFly docs, supertruth research, fly.pokyh.com, fly-fight qoder.zone, FLM Vercel, Aimbug, Marksman, Space Program, Inquirer — **200**. `stonkfly.com` **TLS hostname mismatch** from this agent (dashboard `stonkfly-three.vercel.app` still 200). First-party `x.com` HTML **404** (login wall).
+- Live HTTP GET on 22 Sep 2026: mk-jev Pages, FlyDrones Pages, fruitflysynth Pages, fly-chan Pages, brainrotposts.com, flywire-fly-lab game.html, nandfly, beat-the-fly, 9tofly, Fly School, Euraxluo, music-in-the-body, polyfly-ui, flyscope, malecns-pong-lab Pages, fly-blackjack, FlyBreak chatgpt.site, flysoul Pages, drosophila-critic Pages, flyrun.runningdog.org, dotFly docs, supertruth research, fly.pokyh.com, fly-fight qoder.zone, FLM Vercel, Aimbug, Marksman, Space Program, Inquirer, falafel Pages, fly-bench.com/bench, flybrain.online/dartboard, flybrain.online/flyonardo, unrollnow 2100964182028099993 / 2101298482002927874 / 2102092842537734496, Zenodo 22871090 — **200**. `stonkfly.com` **TLS hostname mismatch** from this agent (dashboard `stonkfly-three.vercel.app` still 200). First-party `x.com` HTML **404** (login wall).
 - X/Twitter was not used for new status IDs. Hugging Face Spaces were not re-crawled except URLs already in READMEs.
 - Star outliers that are **not** cooler new whole-brain demos: FlyDrones 216★ (already listed; MiniFly in the browser); cobanov 575★ (index); nftechie canon; fruitflysynth 15★ (already ranked 17 Sep); flywire-fly-lab 13★ (already ranked 17 Sep); pianist-fly 3★ (real, ranked #4).
 
-*End of shard. Fold only the strongest verified items into README; do not dump this file wholesale. Folded this pass: FlySoul, Model Kombat, Pokefly, pianist-fly, The Fly’s Table, Fly-NAF, FlyBreak, fly-swing, Haltere Pilot, fly-cord-robots, Flyguy, Fly Terrarium, Flybrain (gate course), fruitflysynth / Brain Rot / fly-chan / flywire-fly-lab (17 Sep GitHub shard), fly24, Drosophila Critic, fly-garden, boltzmann-fly, connectome-kernels (tools). Leave FlyWall / sudoku-expert / metaphor-only / LoL dry-run / fly_rotten (notebook) out of the list.*
+*End of shard. Fold only the strongest verified items into README; do not dump this file wholesale. Folded this pass: FlySoul, Model Kombat, Pokefly, pianist-fly, The Fly’s Table, Fly-NAF, FlyBreak, fly-swing, Haltere Pilot, fly-cord-robots, Flyguy, Fly Terrarium, Flybrain (gate course), fruitflysynth / Brain Rot / fly-chan / flywire-fly-lab (17 Sep GitHub shard), fly24, Drosophila Critic, fly-garden, boltzmann-fly, connectome-kernels (tools). Box X follow-up folded: Fly Falafel King, therealfly, flyconnectome-nulls, flybench, The Dartboard. Leave FlyWall / sudoku-expert / metaphor-only / LoL dry-run / fly_rotten (notebook) / drone-fly (overlaps fly-fpv; not LIF) / seeton/fly (viewer, not LIF) out of the list.*

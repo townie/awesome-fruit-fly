@@ -126,6 +126,35 @@ These were ranked on 18 Sep and lived only in the unmerged GitHub shard until th
 
 Thin / skip-as-new-brain: `DWJStraat/FlyWall` (142 bytes), `nikolasandwich/fly-sudoku-expert` (toy reservoir), `h100envy/nerve` / `paonxeth/flyswatter-detector` / `wwtlitee/fly-chaser` (metaphor-only), `Frankweb33/flybrain-robot-bridge` (mock; MaleCNS planned), `Umair-JM/fly-eeg` (no README), stonkfly/doomfly/`flm*` clones, same-day invoice squats.
 
+## Box X follow-up (same day)
+
+A later scan named six GitHub URLs plus three `@fruitflydev` status IDs. First-party `x.com` still 404; IDs confirmed on [unrollnow](https://unrollnow.com) (HTTP 200). Do not invent others.
+
+### Folded to README
+
+| Name | Pointers | Dopamine/RL? | Note |
+|---|---|---|---|
+| **Fly Falafel King** | https://github.com/Eli-HarShefer/fly-brain-falafel · Pages 200 | no (frozen FlyWire subgraph) | 4,798 LIF; LC10a trays + LPLC2 slap. Order-reading is authored. |
+| **therealfly** | https://github.com/fruitflydev/therealfly | no written controller | Full MaleCNS LIF → flybody. Preregistered cord-rhythm **FAIL**. Offline. |
+| **flyconnectome-nulls** | https://github.com/gyujeongion/flyconnectome-nulls · Zenodo 200 | evolved agents, not PAM | Compressed FlyWire vs nulls; shortcuts explain the shuffle win. |
+| **flybench** | https://github.com/brandoncho369/flybench · https://www.fly-bench.com/bench 200 | n/a (benchmark) | 36 pre-registered tasks. Was in an older shard; now tools. |
+| **The Dartboard** | https://flybrain.online/dartboard 200 | sugar/shock MB; no PAM11 named | Paper stock room. **No GitHub.** Clip: `2102092842537734496`. |
+
+`fruitflydev/flycoinrh` was already on README (190★ this pass). Tweets attached to that row + Articles.
+
+### Tweets (unrollnow-confirmed)
+
+- https://x.com/fruitflydev/status/2100964182028099993 (18 Sep) — Flyonardo NFT airdrop. Repo `fruitflydev/flyonardo-da-vinci` already nearby on 17 Sep (token wrapper; not re-folded as a new game).
+- https://x.com/fruitflydev/status/2101298482002927874 (19 Sep) — “gave the fly $10,000 to trade stocks.” Tweet claims outperform random/hold; live Dartboard page says **no edge**.
+- https://x.com/fruitflydev/status/2102092842537734496 — **clip-only**; no GitHub in the post. `flybrain.online/dartboard`.
+
+### Shard-only (real, but not README)
+
+| Name | Pointers | Why not README |
+|---|---|---|
+| **drone-fly** | https://github.com/HaroldHormaechea/drone-fly | Connectome-seeded PPO racing drone. Author: **not** a biophysical LIF. Overlaps already-listed fly-fpv. Already nearby on 17 Sep. |
+| **seeton/fly** | https://github.com/seeton/fly | MaleCNS/hemibrain/FlyWire desktop lab. Escape takeoff is **hand-translated** DNp01→TTMn; flight is CMA-ES, not a LIF graph. |
+
 ## Already known (skip-list)
 
 Do not re-list as discoveries. Confirmed still in README or prior shards.
@@ -156,17 +185,18 @@ Do not re-list as discoveries. Confirmed still in README or prior shards.
 | [@evnsnclr](https://x.com/evnsnclr) | NeuroCraft still the public landing page. |
 | [@_lyraaaa_](https://x.com/_lyraaaa_) | Beat Saber remains X-only. |
 | New this pass (GitHub, not X IDs) | `heyobi`, `lavallee`, `Reldnahc`, `Noir-infini`, `WilliamJones` (late catch), `ArtyMend07` (late catch), `Shriya-sai`, `JHC56` (late catch), `Ameerkhanjk`, `SakshayMahna`, `Cem-Bas`, `georgesher`, `hama-jp`. |
+| [@fruitflydev](https://x.com/fruitflydev) | Three unrollnow-confirmed IDs this follow-up: `2100964182028099993` (18 Sep Flyonardo), `2101298482002927874` (19 Sep stock room), `2102092842537734496` (dartboard clip-only). flycoinrh already listed. |
 
-No **new archived numeric tweet IDs** this pass. Unrollnow still serves the already-listed Doom status `2097711063135383642` (HTTP 200). Do not invent YMCA / kebab / pianist / Souls status URLs.
+No **other** new archived numeric tweet IDs this pass. Unrollnow still serves the already-listed Doom status `2097711063135383642` (HTTP 200). Do not invent YMCA / kebab / pianist / Souls status URLs.
 
 ## Search notes / method
 
 - GitHub Search API (22 Sep 2026 UTC): `MaleCNS created:>=2026-09-17` **80**; `>=2026-09-18` **55**; `FlyWire created:>=2026-09-17` **52**; `"166,700" created:>=2026-09-17` **11**; `MaleCNS created:>=2026-09-01` **270**. Pulse-name repos (`pianist-fly`, `fly-fight`, `FlyFace`, `pokefly`, …) were fetched by exact `full_name`, not slogan search.
 - News/web: Inquirer 17 Sep (re-check), Proje Defteri 13 Sep, SuperTruth 20–21 Sep, cobanov git log 19–20 Sep, 404 Media (no new piece). kebab / YMCA + MaleCNS → still **0** repos.
-- X: `x.com/nftechie_` **404** from this agent; nitter SSL EOF. **Zero new status IDs** archived. Do not invent them.
-- HTTP GET on 22 Sep 2026: flysoul Pages, mk-jev Pages, fly-blackjack, FlyBreak host, fruitflysynth / fly-chan / brainrot / flywire-fly-lab, Drosophila Critic Pages, polyfly-ui, flyscope, SuperTruth, Proje Defteri, Inquirer, FlyDrones, FLM Vercel, unrollnow Doom — **200**. `stonkfly.com` TLS hostname mismatch (dashboard still 200).
+- X: `x.com/nftechie_` **404** from this agent; nitter SSL EOF. Box X follow-up archived three `@fruitflydev` IDs via unrollnow (200). Do not invent others.
+- HTTP GET on 22 Sep 2026: flysoul Pages, mk-jev Pages, fly-blackjack, FlyBreak host, fruitflysynth / fly-chan / brainrot / flywire-fly-lab, Drosophila Critic Pages, polyfly-ui, flyscope, SuperTruth, Proje Defteri, Inquirer, FlyDrones, FLM Vercel, unrollnow Doom, falafel Pages, fly-bench.com/bench, flybrain.online/dartboard, flybrain.online/flyonardo, unrollnow 2100964182028099993 / 2101298482002927874 / 2102092842537734496 — **200**. `stonkfly.com` TLS hostname mismatch (dashboard still 200).
 - Star counts from the GitHub API were used only as a ranking hint and **are not copied into the README**.
 
 ## Suggested README fold-ins (high bar)
 
-Promoted in the accompanying README edit: **FlySoul**, **Model Kombat**, **Pokefly**, **pianist-fly**, **The Fly’s Table**, **Fly-NAF**, **FlyBreak**, **fly-swing**, **Haltere Pilot**, **fly-cord-robots**, **Flyguy**, **Fly Terrarium**, **Flybrain (gate course)**, **Fruitflysynth**, **Brain Rot**, **Fly-chan**, **flywire-fly-lab**, **fly24**, **Drosophila Critic**, **fly-garden**, **boltzmann-fly**, **connectome-kernels** (tools), cobanov’s 19–20 Sep thaw, SuperTruth article. Left out of the list: FlyWall (stub), sudoku-expert (toy reservoir), metaphor-only nerve/swatter/chaser/robot-bridge, LoL dry-run, polyfly-ui (wrapper), fly-eeg (no README), fly_rotten (notebook vs ResNet), flappy-haltere (another Flappy), empty-arena flybody-connectome, SuperTruth as a *game*.
+Promoted in the accompanying README edit: **FlySoul**, **Model Kombat**, **Pokefly**, **pianist-fly**, **The Fly’s Table**, **Fly-NAF**, **FlyBreak**, **fly-swing**, **Haltere Pilot**, **fly-cord-robots**, **Flyguy**, **Fly Terrarium**, **Flybrain (gate course)**, **Fruitflysynth**, **Brain Rot**, **Fly-chan**, **flywire-fly-lab**, **fly24**, **Drosophila Critic**, **fly-garden**, **boltzmann-fly**, **connectome-kernels** (tools), cobanov’s 19–20 Sep thaw, SuperTruth article. Box X follow-up: **Fly Falafel King**, **therealfly**, **flyconnectome-nulls**, **flybench**, **The Dartboard**. Left out of the list: FlyWall (stub), sudoku-expert (toy reservoir), metaphor-only nerve/swatter/chaser/robot-bridge, LoL dry-run, polyfly-ui (wrapper), fly-eeg (no README), fly_rotten (notebook vs ResNet), flappy-haltere (another Flappy), empty-arena flybody-connectome, SuperTruth as a *game*, **drone-fly** (PPO slice; overlaps fly-fpv), **seeton/fly** (viewer; takeoff hand-mapped).
