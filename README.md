@@ -202,13 +202,14 @@ Short orientation only. Deeper coverage lives on [watthem/awesome-fruit-fly-conn
 - [malecns (natverse)](https://github.com/natverse/malecns) - R access to `male-cns:v1.0` via neuPrint.
 - [flybench](https://github.com/brandoncho369/flybench) - 36 pre-registered reflex tasks on FlyWire v783 and MaleCNS (shuffled-wiring controls, flyvis eye, FlyGym body). Working gain ~0.45, not published 1.0; spike-frequency adaptation beats the reference LIF. Companion to [fly-explorer](#games--interactive). [ [leaderboard](https://www.fly-bench.com/bench) ]
 - [flybrain SDK](https://github.com/freeman-1984-coder/flybrain-sdk) - CPU LIF runtime, game APIs, and on-demand MaleCNS / FlyWire data (no CUDA required).
+- [connectome-host](https://github.com/anima-research/connectome-host) - **Not biology.** Anima Research’s recipe-driven agent host (web UI / TUI / headless fleet) on their “Connectome” software stack (agent-framework, context-manager, chronicle, membrane). Name collision with MaleCNS / FlyWire wiring diagrams; no *Drosophila* graph.
 - [connectome-kernels](https://github.com/QuixiAI/connectome-kernels) - Fused CUDA kernels for training a recurrent net on a fixed sparse graph (built for FlyGPT / MaleCNS Shakespeare). Tooling, not a demo.
 
 ## Related lists
 
 - [awesome-fruit-fly-connectome](https://github.com/watthem/awesome-fruit-fly-connectome) - Datasets, papers, viewers, analysis libraries, and a shorter viral-experiments section. Complementary: they curate the science stack; this list curates demos and dopamine / RL use cases.
 - [awesome-fly](https://github.com/cobanov/awesome-fly) - Parallel community index (games, desktop flies, language/art, research tools) by the Fly Dino author, with a [fly-connectome-template](https://github.com/cobanov/fly-connectome-template) starter. Overlaps this list; last content push 20 Sep 2026 (The Fly’s Table, Fly-NAF, fly-swing, boltzmann-fly). Useful as a second pass.
-- [`discoveries/`](discoveries/) - Uncurated search shards (games / media / art, science / embodied RL, trading / dopamine / wirehead, and the 14–22 Sep 2026 X/web and GitHub cool-hunts). Stronger items are folded into the sections above; the shards keep rejected and “mentioned, not verified” notes.
+- [`discoveries/`](discoveries/) - Uncurated search shards (games / media / art, science / embodied RL, trading / dopamine / wirehead, the 14–22 Sep 2026 X/web and GitHub cool-hunts, and a 25 Sep 2026 name-collision note for [anima-research/connectome-host](https://github.com/anima-research/connectome-host)). Stronger items are folded into the sections above; the shards keep rejected and “mentioned, not verified” notes.
 
 ## Articles & threads
 
@@ -252,4 +253,4 @@ List text is [CC0 1.0](LICENSE) (public domain dedication), the usual license fo
 
 Linked projects and datasets keep their own terms. **MaleCNS data is CC BY 4.0** (attribution required; commercial use allowed). **FlyWire / FAFB data is CC BY-NC 4.0** (non-commercial). Check each source before you ship a fork.
 
-*Last updated 22 September 2026, during the MaleCNS demo wave. Fly on. 🪰*
+*Last updated 25 September 2026, during the MaleCNS demo wave. Fly on. 🪰*
